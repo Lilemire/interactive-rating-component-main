@@ -1,6 +1,7 @@
 import StarImage from "../src/images/icon-star.svg";
 
 import Container from "./components/Container";
+import Mesboutons from "./components/Mesboutons";
 import Star from "./components/Star";
 import Text from "./components/Text";
 
@@ -18,6 +19,11 @@ function App() {
          request. All feedback is appreciated to help us
          impove our offering !
        </Text>
+       <Mesboutons>1</Mesboutons>
+       <Mesboutons>2</Mesboutons>
+       <Mesboutons>3</Mesboutons>
+       <Mesboutons>4</Mesboutons>
+       <Mesboutons>5</Mesboutons>
      </Container>
     </div>
   );
