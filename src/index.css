@@ -16,7 +16,7 @@ body {
   background-color: var(--light-gray);
   min-height: 100vh;
   font-family: var(--font);
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(16 16 16);
   color: white;
 }
 
@@ -37,5 +37,41 @@ code {
     20.9px 20.9px 33.4px rgba(0, 0, 0, 0.036),
     50px 50px 80px rgba(0, 0, 0, 0.05);
   padding: 2rem;
-  background-color: black;
+  background-color: #1d1f25;
+}
+
+.flex-btns {
+  display: flex;
+  justify-content: space-between;
+  font-size: 90%;
+}
+
+.submit-button {
+  text-align: center;
+  background-color: rgb(42 45 53);
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 35px;
+}
+
+.hovered {
+  background-color: white;
+  color: orange;
+}
+
+.nbr-button {
+  background-color: rgb(42 45 53);
+  padding: 15px 20px 15px 20px;
+  border-radius: 35px;
+}
+
+.hoverednbr {
+  background-color: orange;
+  color: white;
+}
+
+.roundStar{
+  background-color: rgb(42 45 53);
+  padding: 15px 15px 15px 15px;;
+  border-radius: 35px;
 }

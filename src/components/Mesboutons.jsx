@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 
-const Mesboutons = ({children}) => {
+const Mesboutons = ({children, anotherClassName}) => {
   const [isHovered, setIsHovered] = useState(false);
 
   //On change l'état de isHovered à true
@@ -10,7 +10,8 @@ const Mesboutons = ({children}) => {
   //On change l'état de isHovered à false
   const onMouseLeave = () => setIsHovered(false);
 
-  const className = isHovered ? "yes" : "no";
+  const additionalHoveredClassName = isHovered ? "hoverednbr" : "";
+  const className = `${additionalHoveredClassName} ${anotherClassName}`;
 
   return (
       <div
@@ -21,5 +22,3 @@ const Mesboutons = ({children}) => {
 }
 
 export default Mesboutons
-
-//onclick https://fr.reactjs.org/docs/handling-events.html
